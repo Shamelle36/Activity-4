@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>E-commerce</h1>
+    <p>Select the products you want to buy: </p>
+
+    <div class="body">
+            <div class="product">
+                <img src="images/nike.jpg">
+            <input type="checkbox" id="productA">
+            <label for="productA">Nike (Php 200.00) </label>
+            </div>
+
+            <div class="product">
+                <img src="images/jd_348197_a.jpg" alt="">
+            <input type="checkbox" id="productB">
+            <label for="productB">Adidas (Php 500.00) </label>
+            </div>
+            <div class="product">
+                <img src="images/skechers.jpg" alt="">
+            <input type="checkbox" id="productC">
+            <label for="productC">Skechers (Php 3000.00) </label>
+            </div>
+            <div class="product">
+                <img src="images/converse.jpg" alt="">
+                <input type="checkbox" id="productD">
+                <label for="productD">Converse (Php 2000.00) </label>
+            </div>
+            <div class="product">
+                <img src="images/vans.jpg" alt="">
+                <input type="checkbox" id="productE">
+                <label for="productE">Vans (Php 450.00) </label>
+            </div>
+        </div>
+    <button onclick="calculateTotal()">Total</button>
+
+    <h4 id="displayTotal">Total: <span id="totalValue"></span></h4>  
+</div>
+
+  <script src="main.js"></script>
+</body>
+</html>

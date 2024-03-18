@@ -1,0 +1,29 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.product img{
+    width: 200px;
+}
+
+.product{
+    padding: 1rem;
+    background-color: rgb(29, 236, 198);
+    border-radius: 10px;
+    width: 200px;
+}
+
+.body{
+    display: flex;
+    justify-content: space-between;
+}
+
+h1, p {
+    text-align: center;
+}
+
+button{
+    margin-top: 10px;
+    width:250px;
+    font-weight: bolder;
+}
